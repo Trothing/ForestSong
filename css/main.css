@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 @font-face {
   font-family: 'MinecraftFont';
-  src: url('source/Minecraft_1.1.ttf') format('ttf');
+  src: url('../source/Minecraft_1.1.ttf') format('ttf');
 }
 
 
 
 body {
 	margin: 0;
-  	background: url(source/idel.jpg) no-repeat center center fixed;
+  	background: url(../source/idel.jpg) no-repeat center center fixed;
   	background-size: cover;
 /*  	overflow: hidden;*/
   	position: relative;
@@ -18,7 +18,7 @@ body {
 .cat{
 	width: 256px;
   	height: 192px;
-  	background-image: url('source/Cat.png');
+  	background-image: url('../source/Cat.png');
   	background-size: 2048px 192px;
   	background-repeat: no-repeat;
   	position: absolute;
@@ -38,7 +38,7 @@ body {
   	}
 }
 .cat.sit {
-	background-image: url('source/CatFinalSit.png');
+	background-image: url('../source/CatFinalSit.png');
 	width: 256px;
 	height: 256px;
 	background-size: 1024px 256px;
@@ -54,7 +54,7 @@ body {
   	}
 }
 .cat.ymuva{
-	background-image: url('source/CatYmuva0.png');
+	background-image: url('../source/CatYmuva0.png');
 	width: 256px;
 	height: 192px;
 	background-size: 1072px 192px;
@@ -112,7 +112,7 @@ button.hide {
 .cat.start{
 	width: 256px;
   	height: 270px;
-  	background-image: url('source/CatJump.png');
+  	background-image: url('../source/CatJump.png');
   	background-size: 2048px 270px;
   	background-repeat: no-repeat;
   	position: absolute;
@@ -133,7 +133,7 @@ button.hide {
 }
 
 .cat.finalsit {
-	background-image: url('source/sit0\(1\)\(1\).png');
+	background-image: url('../source/sit0\(1\)\(1\).png');
 	width: 256px;
 	height: 192px;
 	background-size: 1024px 192px;
