@@ -164,7 +164,7 @@ cat.addEventListener('transitionend', (e) => {
     cat.classList.remove('start');
     cat.classList.add('finalsit');
     
-    showDialog("Приві! Я - кіт. Сподіваюся, що то подобається мій сайт :)");
+    showDialog("Приві! Я - кіт. Сподіваюся, що тобі подобається мій сайт :)");
   }
 });
 
