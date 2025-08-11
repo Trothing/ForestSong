@@ -164,7 +164,7 @@ cat.addEventListener('transitionend', (e) => {
     cat.classList.remove('start');
     cat.classList.add('finalsit');
     
-    showDialog("Приві! Я - кіт. Сподіваюся, що утебе все вийде і ти зможеш поступити на лікаря, як і хотіла :)");
+    showDialog("Приві! Я - кіт. Сподіваюся, що утебе все вийде і ти станеш щасливим");
   }
 });
 
@@ -186,3 +186,4 @@ function showDialog(text, speed =100) {
 
   type();
 }
+
